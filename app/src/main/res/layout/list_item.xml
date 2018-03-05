@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/layout_margin"
+    app:cardBackgroundColor="@color/colorBackground"
+    app:cardCornerRadius="@dimen/card_corner_radius"
+    app:cardElevation="@dimen/card_elevation">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_pillarName"
+        android:layout_marginTop="@dimen/layout_margin"
+        style="@style/StyleLayout"/>
+
+    <TextView
+        android:id="@+id/tv_sectionName"
+        style="@style/StyleLayout"/>
+
+    <TextView
+        android:id="@+id/tv_webTitle"
+        android:textSize="@dimen/text_size_webTitle"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        style="@style/StyleLayout"/>
+
+    <TextView
+        android:id="@+id/tv_webUrl"
+        android:textSize="@dimen/text_size_webUrl"
+        android:autoLink="web"
+        android:clickable="true"
+        android:focusable="true"
+        style="@style/StyleLayout"/>
+
+    <TextView
+        android:id="@+id/tv_publicationDate"
+        style="@style/StyleLayoutDate"/>
+
+    <TextView
+        android:id="@+id/tv_author"
+        style="@style/StyleLayoutDate"/>
+
+</LinearLayout>
+</android.support.v7.widget.CardView>

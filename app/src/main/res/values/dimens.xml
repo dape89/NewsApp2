@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_margin">8dp</dimen>
+    <dimen name="card_corner_radius">4dp</dimen>
+    <dimen name="card_elevation">5dp</dimen>
+    <dimen name="text_size_webTitle">24sp</dimen>
+    <dimen name="text_size_webUrl">16sp</dimen>
+</resources>
