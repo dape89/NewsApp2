@@ -8,4 +8,23 @@
     <string name="log_error_response">Error response code: </string>
     <string name="log_problem_retrieving">Problem retrieving the Guardian news JSON results.</string>
     <string name="log_problem_building_url">"Problem building the URL "</string>
+
+    <string name="settings_menu">Settings</string>
+    <string name="settings_title">News Settings</string>
+    <string name="settings_sectionNews_label" translatable="false">Section News</string>
+    <string name="settings_sectionNews_key" translatable="false">section news</string>
+    <string name="settings_sectionNews_default" translatable="false">@string/settings_category_four_value</string>
+
+    <string name="settings_category_one_label">Politics</string>
+    <string name="settings_category_one_value" translatable="false">politics</string>
+
+    <string name="settings_category_two_label">Science</string>
+    <string name="settings_category_two_value" translatable="false">science</string>
+
+    <string name="settings_category_three_label">Sport</string>
+    <string name="settings_category_three_value" translatable="false">sport</string>
+
+    <string name="settings_category_four_label">Technology</string>
+    <string name="settings_category_four_value" translatable="false">technology</string>
+
 </resources>
